@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passman</title>
+</head>
+<body>
+
+    <input type="file" id="fileInput" />
+    <input type="text" id="passwordIn">
+    <p id="fileContent"></p>
+    <button onclick="readEncryptedFile()", id="decryptButton">decrypt file</button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/argon2-browser/dist/argon2-bundled.min.js"></script>
+    <script src="javascript/passman.js"></script>
+</body>
+</html>
